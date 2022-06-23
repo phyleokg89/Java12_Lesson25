@@ -66,7 +66,7 @@ public class RockPaperScissors {
         }
 
         public boolean playAgain() {
-            System.out.println("Хотите сыграть еще раз? ");
+            System.out.println("Хотите сыграть   еще раз? ");
             String userInput = inputScanner.nextLine();
             userInput = userInput.toUpperCase();
             return userInput.charAt(0) == 'Д';
