@@ -103,7 +103,7 @@ public class RockPaperScissors {
         int compareMoves = userMove.compareMoves(computerMove);
         switch (compareMoves) {
             case 0:
-                System.out.println("Ничья!");
+                System.out.println("Ничья!!!");
                 break;
             case 1:
                 System.out.println(userMove + " бьёт " + computerMove + ". Вы победили!");
