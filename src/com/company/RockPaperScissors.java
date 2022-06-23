@@ -110,7 +110,7 @@ public class RockPaperScissors {
                 userScore++;
                 break;
             case -1:
-                System.out.println(computerMove + " бьёт " + userMove + ". Вы проиграли.");
+                System.out.println(computerMove + " БЬЁТ " + userMove + ". Вы проиграли.");
                 computerScore++;
                 break;
         }
