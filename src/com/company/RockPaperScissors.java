@@ -91,7 +91,7 @@ public class RockPaperScissors {
     }
 
     public void startGame() {
-        System.out.println("КАМЕНЬ, НОЖНИЦЫ, БУМАГА!");
+        System.out.println("КАМЕНЬ, НОЖНИЦЫ, БУМАГА!!!");
 
 
         Move userMove = user.getMove();
